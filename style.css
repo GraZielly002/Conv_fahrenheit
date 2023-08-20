@@ -123,20 +123,81 @@ input:focus{
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .square{
-        width: 80vw;
-        height: 30vh;
-        margin-left: -5rem;
+        width: 75vw;
+        height: 25vh;
     }
     #tittle{
-        font-size: 0.900em;
+        font-size: 0.800em;
         display: flex;
         justify-content: center;
         padding-top: 1em;
     }
     .square2{
-        width: 80vw;
-        height: 30vh;
+        width: 75vw;
+        height: 25vh;
         padding-bottom: 3rem;
-        margin-left: -5rem;
+    }
+    .exibir{
+        width: 60vw;
+        height: 6vh;
+    }
+    #img1{
+        margin-top: 0.300rem;
+        margin-left: 0.900rem;
+        width: 5vh;
+        height: 5vh;
+    }
+    .num{
+        width: 45vw;
+        height: 6vh;
+        margin-top: 1.6rem;
+    }
+    #img3{
+        margin-top: 0.400rem;
+        margin-left: 0.600rem;
+        width: 4vh;
+        height: 6vh;
+    }
+    #valor{
+        width: 4rem;
+        height: 2rem;
+        margin-left: 1rem;
+        margin-top: 0.700rem;
+        font-size: 2.1rem;
+    }
+    .img_lado{
+        margin-top: -4.5rem;
+        margin-left: -1rem;
+    }
+    #img2{
+        width: 5rem;
+        height: 4rem;
+    }
+    .bnt-flex{
+        width: 75vw;
+        margin-left: 0.500rem;
+        height: 13.5vw;
+    }
+    #img_base{
+        margin-left: 1rem;
+        margin-top: 0.1rem;
+        height: 6vh;
+        width: 6vh;
+    }
+    #butao{
+        width: 7rem;
+        height: 2.3rem;
+        margin-top: 0.300rem;
+        margin-left: 0.400rem;
+    }
+    #img4{
+        margin-top: 0.200rem;
+    }
+    #img_base2{
+        height: 9vh;
+        width: 7.5vh;
+        margin-top: -0.900rem; /*0.800*/
+        margin-right: 1rem;
+        transform: rotate(10.5deg);
     }
 }
