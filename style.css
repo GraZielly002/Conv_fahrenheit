@@ -21,7 +21,7 @@ body{
     border-radius: 3rem;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-#tittle{
+#title{
     font-family: Tomorrow;
     font-size: 1.5em;
     display: flex;
@@ -136,7 +136,7 @@ input:focus{
         width: 75vw;
         height: 25vh;
     }
-    #tittle{
+    #title{
         font-size: 0.800em;
         display: flex;
         justify-content: center;
@@ -219,5 +219,62 @@ input:focus{
         height: 5vh;
         width: 25vw;
         font-size: 2.1rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .square{
+        width: 70vw;
+        height: 37vh;
+    }
+    .square2{
+        width: 70vw;
+        height: 38vh;
+    }
+    #title{
+        padding-top: 1.5em;
+    }
+    .min-container{
+        padding-top: 1em;
+    }
+    .exibir{
+        width: 52vw;
+    }
+    #resultado{
+        margin-left: 3.5rem;
+        margin-top: -1.9rem;
+    }
+    .num{
+        width: 41vw;
+        margin-top: 1.9rem;
+    }
+    #img3{
+        margin-top: 0.3rem;
+    }
+    #valor{
+        height: 4.9vh;
+        margin-top: 0.3rem;
+    }
+    .img_lado{
+        margin-top: -3.6rem;
+    }
+    #img2{
+        height: 4.5rem;
+    }
+    .bnt-flex{
+        margin-left: 0.3rem;
+    }
+    #img_base{
+        margin-top: 0.6rem;
+    }
+    #butao{
+        height: 2.2rem;
+        margin-left: 0.9rem;
+        margin-right: 0.9rem;
+        margin-top: 0.5rem;
+    }
+    #img_base2{
+        height: 25vw;
+        margin-top: -1.2rem;
+        margin-right: 2.1rem;
     }
 }
